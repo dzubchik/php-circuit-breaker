@@ -8,7 +8,7 @@
     "error handling"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/paymaxi/circuit-breaker",
+  "homepage": "https://github.com/dzubchi/php-circuit-breaker",
   "require": {
     "php": ">=7.0",
     "phpunit/phpunit": "^6.0",

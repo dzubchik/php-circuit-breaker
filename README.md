@@ -130,12 +130,12 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-travis]: https://img.shields.io/travis/dzubchik/php-circuit-breaker/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/dzubchik/php-circuit-breaker.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/dzubchik/php-circuit-breaker.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/dzubchik/php-circuit-breaker.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/paymaxi/circuit-breaker.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/dzubchik/php-circuit-breaker
+[link-packagist]: https://packagist.org/packages/paymaxi/circuit-breaker
 [link-travis]: https://travis-ci.org/dzubchik/php-circuit-breaker
 [link-scrutinizer]: https://scrutinizer-ci.com/g/dzubchik/php-circuit-breaker/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/dzubchik/php-circuit-breaker
-[link-downloads]: https://packagist.org/packages/dzubchik/php-circuit-breaker
+[link-downloads]: https://packagist.org/packages/paymaxi/circuit-breaker
 [link-author]: https://github.com/dzubchik
 [link-contributors]: ../../contributors
