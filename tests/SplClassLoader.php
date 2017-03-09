@@ -27,8 +27,9 @@ class SplClassLoader
     /**
      * Creates a new <tt>SplClassLoader</tt> that loads classes of the
      * specified namespace.
-     * 
+     *
      * @param string $ns The namespace to use.
+     * @param null $includePath
      */
     public function __construct($ns = null, $includePath = null)
     {
@@ -47,7 +48,7 @@ class SplClassLoader
     }
 
     /**
-     * Gets the namespace seperator used by classes in the namespace of this class loader.
+     * Gets the namespace separator used by classes in the namespace of this class loader.
      *
      * @return void
      */

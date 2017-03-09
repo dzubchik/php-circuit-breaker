@@ -1,10 +1,27 @@
 language: php
 php:
-  - "5.4"
-  - "5.3"
+    - '7.0'
+    - '7.1'
+    - nightly
+
 before_script:
   - ./tests/before-travisci.sh
-  - pear channel-discover pear.phpdoc.org
-  - pear install phpdoc/phpDocumentor-alpha
-  - phpenv rehash
-script: ant ci
+  - composer install -o
+  - php ./tests/Manual/Performance/PsrSimpleLoop.php
+
+after_script:
+    - |
+      if [ $TRAVIS_PHP_VERSION = '7.0' ]; then
+        travis_retry wget https://scrutinizer-ci.com/ocular.phar
+        php ocular.phar code-coverage:upload --format=php-clover build/logs/clover.xml
+      fi
+
+install:
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - travis_retry composer self-update && composer --version
+
+services:
+    - redis-server
+    - memcached
+
+script: phpunit --configuration tests/phpunit-extended.xml

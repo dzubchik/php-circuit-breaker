@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit 
-    bootstrap="./bootstrap.php" 
     backupGlobals="true"
     convertErrorsToExceptions="true"
     convertNoticesToExceptions="true"
     convertWarningsToExceptions="true"
     strict="true"
     checkSyntax="true"
+    bootstrap="bootstrap.php"
 >
     <testsuites>
         <testsuite name="phpunit">
