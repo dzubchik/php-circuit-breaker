@@ -1,6 +1,11 @@
 # What is Circuit Breaker
 
-[![Build Status](https://travis-ci.org/dzubchik/php-circuit-breaker.svg?branch=master)](https://travis-ci.org/dzubchik/php-circuit-breaker)
+[![Build Status][ico-travis]][link-travis]
+[![Quality Score][ico-code-quality]][link-code-quality]
+[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Total Downloads][ico-downloads]][link-downloads]
+[![Software License][ico-license]](LICENSE.md)
 
 A component helping you gracefully handle outages and timeouts of external services (usually remote, 3rd party services).
 
@@ -115,3 +120,22 @@ Memcache adapter is in range of 0.0005s when talking to the local memcached proc
 
 The only potential performance impact is network connection time. If you chose to use remote memcached server or
 implement your own custom StorageAdapter.
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[ico-version]: https://img.shields.io/packagist/v/dzubchik/php-circuit-breaker.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/dzubchik/php-circuit-breaker/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/dzubchik/php-circuit-breaker.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/dzubchik/php-circuit-breaker.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/dzubchik/php-circuit-breaker.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/dzubchik/php-circuit-breaker
+[link-travis]: https://travis-ci.org/dzubchik/php-circuit-breaker
+[link-scrutinizer]: https://scrutinizer-ci.com/g/dzubchik/php-circuit-breaker/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/dzubchik/php-circuit-breaker
+[link-downloads]: https://packagist.org/packages/dzubchik/php-circuit-breaker
+[link-author]: https://github.com/dzubchik
+[link-contributors]: ../../contributors
